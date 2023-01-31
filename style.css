@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+img {
+    width: 10%;
+}
+.logos {
+    margin: 2% 20%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.logos img {
+    width: 10%;
+    aspect-ratio: 2/2;
+    object-fit: contain;
+}
+html, main, .container {
+    background-color: #860037 !important;
+}
+.btn {
+    background :  rgb(90, 90, 90)  ;
+    color : #fff ;
+    border : none ;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0,5)!important;
+}
+.btn:hover {
+    -webkit-animation: btn 1.5s ease-in-out infinite both;
+    animation: btn 1.5s ease-in-out infinite both;
+    background :  rgb(255, 255, 255)  ;
+    color: black;
+}
